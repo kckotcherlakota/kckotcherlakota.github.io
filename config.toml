@@ -1,7 +1,8 @@
-baseURL = "https://example.com"
+baseURL = "https://kckotcherlakota.github.io/"
 title   = "Chaitanya Kotcherlakota"
 languageCode = "en-us"
 theme = "hello-friend-ng"
+publishDir = "docs"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
