@@ -4,6 +4,9 @@ languageCode = "en-us"
 theme = "hello-friend-ng"
 
 
+
+
+
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
@@ -14,7 +17,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 # googleAnalytics = ""
 # disqusShortname = ""
 
-archetypeDir = "archetypes"
+archetypeDir = "archetypes" 
 contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
