@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#0c0c10"/><rect x="30" y="34" width="13" height="32" fill="#e8ff5e"/><rect x="44" y="34" width="13" height="32" fill="#6ee7ff"/><rect x="58" y="34" width="13" height="32" fill="#ff4326"/></svg></template>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Archivo+Black&family=Sora:wght@600;800&family=Newsreader:ital@0;1&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:#0c0c10;overflow-x:hidden}
+  ::selection{background:#e8ff5e;color:#0c0c10}
+  @keyframes cp-in{to{opacity:1;transform:none}}
+  @keyframes cp-marq{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+  @keyframes cp-pulse{0%,100%{opacity:.5;transform:scale(1)}50%{opacity:1;transform:scale(1.25)}}
+  .cp-card{opacity:1;text-decoration:none;color:inherit;display:flex;flex-direction:column;transition:transform .4s cubic-bezier(.16,1,.3,1)}
+  .cp-card:hover{transform:translateY(-10px)}
+  .cp-card:hover .cp-prev{transform:scale(1.015)}
+  .cp-card:hover .cp-go{gap:14px;color:#fff}
+  .cp-prev{transition:transform .45s cubic-bezier(.16,1,.3,1)}
+</style>
+</helmet>
+<div style="background:#0c0c10;color:#edece6;font-family:'Space Grotesk',sans-serif;min-height:100vh;padding:clamp(34px,6vw,80px) clamp(20px,5vw,72px) 60px">
+  <div style="max-width:1360px;margin:0 auto">
+
+    <!-- header -->
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:20px;margin-bottom:clamp(38px,6vw,72px)">
+      <div>
+        <div style="font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.2em;color:#8a8a80;margin-bottom:18px">KRISHNA KOTCHERLAKOTA · PORTFOLIO DIRECTIONS</div>
+        <h1 style="font-size:clamp(38px,7vw,92px);font-weight:700;line-height:.92;letter-spacing:-.03em">Three ways to<br><span style="color:#e8ff5e">stand out.</span></h1>
+      </div>
+      <p style="max-width:340px;font-family:'Space Mono',monospace;font-size:13px;line-height:1.7;color:#9a9a90;padding-top:8px">Same résumé, three distinct universes. Open each, then pick the one that feels like you. Click any card to enter →</p>
+    </div>
+
+    <!-- cards -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:22px">
+
+      <!-- ACID -->
+      <a class="cp-card" href="acid.html" style="animation-delay:.05s">
+        <div class="cp-prev" style="position:relative;height:300px;background:#0a0a0a;border:2px solid #232320;overflow:hidden;display:flex;flex-direction:column;justify-content:center;padding:28px">
+          <div style="position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(0,0,0,.4) 3px,rgba(0,0,0,.4) 4px);pointer-events:none"></div>
+          <div style="position:absolute;top:14px;left:16px;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.16em;color:#e8ff5e">// 01 — BRUTALIST</div>
+          <div style="font-family:'Archivo Black',sans-serif;font-size:96px;line-height:.84;text-transform:uppercase;color:#e8ff5e;letter-spacing:-.03em">Aa<span style="-webkit-text-stroke:2px #e8ff5e;color:transparent">Bb</span></div>
+          <div style="position:absolute;bottom:0;left:0;width:100%;background:#e8ff5e;color:#0a0a0a;padding:7px 0;overflow:hidden;white-space:nowrap;border-top:2px solid #0a0a0a">
+            <div style="display:inline-block;animation:cp-marq 14s linear infinite;font-family:'Archivo Black',sans-serif;font-size:14px;text-transform:uppercase"><span>LANGGRAPH ✦ RAG ✦ MULTI-AGENT ✦ </span><span>LANGGRAPH ✦ RAG ✦ MULTI-AGENT ✦ </span></div>
+          </div>
+        </div>
+        <div style="padding:22px 4px 0">
+          <div style="display:flex;justify-content:space-between;align-items:baseline">
+            <h3 style="font-family:'Archivo Black',sans-serif;font-size:24px;text-transform:uppercase;letter-spacing:-.01em">ACID</h3>
+            <span class="cp-go" style="font-family:'Space Mono',monospace;font-size:13px;color:#e8ff5e;display:flex;align-items:center;gap:8px;transition:all .3s">VIEW →</span>
+          </div>
+          <p style="margin-top:10px;font-size:14px;line-height:1.6;color:#9a9a90">Raw acid-lime brutalism. Oversized type, monospace grid, a live vector-field hero. Loud and unforgettable.</p>
+          <div style="margin-top:16px;display:flex;gap:7px"><span style="width:20px;height:20px;background:#e8ff5e"></span><span style="width:20px;height:20px;background:#ff4326"></span><span style="width:20px;height:20px;background:#0a0a0a;border:1px solid #333"></span></div>
+        </div>
+      </a>
+
+      <!-- NEURAL VOID -->
+      <a class="cp-card" href="neural-void.html" style="animation-delay:.15s">
+        <div class="cp-prev" style="position:relative;height:300px;background:radial-gradient(ellipse at 30% 30%,#0e1430,#04060f 70%);border:2px solid #1a2240;overflow:hidden;display:flex;flex-direction:column;justify-content:center;padding:28px">
+          <div style="position:absolute;top:-40px;right:-40px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(167,139,250,.35),transparent 65%);filter:blur(20px)"></div>
+          <div style="position:absolute;bottom:-50px;left:-30px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,rgba(110,231,255,.3),transparent 65%);filter:blur(20px)"></div>
+          <div style="position:absolute;top:14px;left:16px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.16em;color:#6ee7ff">/ 02 — CINEMATIC</div>
+          <div style="position:relative;font-family:'Sora',sans-serif;font-weight:800;font-size:92px;line-height:.9;letter-spacing:-.04em;background:linear-gradient(120deg,#6ee7ff,#a78bfa);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent">Aa</div>
+          <div style="position:absolute;bottom:24px;left:28px;display:flex;gap:12px;align-items:center">
+            <span style="width:9px;height:9px;border-radius:50%;background:#6ee7ff;box-shadow:0 0 12px #6ee7ff;animation:cp-pulse 2s infinite"></span>
+            <span style="width:7px;height:7px;border-radius:50%;background:#a78bfa;box-shadow:0 0 12px #a78bfa;animation:cp-pulse 2.4s infinite .3s"></span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#7a8ca8">sub-700ms · constellation</span>
+          </div>
+        </div>
+        <div style="padding:22px 4px 0">
+          <div style="display:flex;justify-content:space-between;align-items:baseline">
+            <h3 style="font-family:'Sora',sans-serif;font-weight:800;font-size:24px;letter-spacing:-.02em">NEURAL VOID</h3>
+            <span class="cp-go" style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#6ee7ff;display:flex;align-items:center;gap:8px;transition:all .3s">VIEW →</span>
+          </div>
+          <p style="margin-top:10px;font-size:14px;line-height:1.6;color:#9a9a90">Deep-space cinematic. A mouse-reactive neural constellation, glassmorphic panels and electric gradients. Premium and futuristic.</p>
+          <div style="margin-top:16px;display:flex;gap:7px"><span style="width:20px;height:20px;background:#6ee7ff"></span><span style="width:20px;height:20px;background:#a78bfa"></span><span style="width:20px;height:20px;background:#04060f;border:1px solid #243"></span></div>
+        </div>
+      </a>
+
+      <!-- EDITORIAL -->
+      <a class="cp-card" href="editorial.html" style="animation-delay:.25s">
+        <div class="cp-prev" style="position:relative;height:300px;background:#f3f0e8;border:2px solid #d8d3c6;overflow:hidden;display:flex;flex-direction:column;justify-content:center;padding:28px">
+          <div style="position:absolute;top:0;left:0;width:100%;height:100%;display:grid;grid-template-columns:repeat(4,1fr);opacity:.6;pointer-events:none"><div style="border-right:1px solid #ddd8cc"></div><div style="border-right:1px solid #ddd8cc"></div><div style="border-right:1px solid #ddd8cc"></div><div></div></div>
+          <div style="position:absolute;top:14px;left:16px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.16em;color:#777">( 03 — EDITORIAL )</div>
+          <div style="position:relative;color:#111;font-size:84px;line-height:.86;font-weight:600;letter-spacing:-.03em">Aa<span style="font-family:'Newsreader',serif;font-style:italic;font-weight:400;color:#ff4326">Bb</span></div>
+          <div style="position:absolute;bottom:26px;left:28px;right:28px;display:flex;align-items:center;gap:12px"><span style="width:22px;height:22px;background:#ff4326"></span><span style="flex:1;height:1.5px;background:#111"></span><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#555">SWISS GRID</span></div>
+        </div>
+        <div style="padding:22px 4px 0">
+          <div style="display:flex;justify-content:space-between;align-items:baseline">
+            <h3 style="font-size:24px;font-weight:600;letter-spacing:-.01em">EDITORIAL <span style="font-family:'Newsreader',serif;font-style:italic;font-weight:400;color:#ff7a63">mono</span></h3>
+            <span class="cp-go" style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#ff7a63;display:flex;align-items:center;gap:8px;transition:all .3s">VIEW →</span>
+          </div>
+          <p style="margin-top:10px;font-size:14px;line-height:1.6;color:#9a9a90">High-contrast Swiss editorial. Cream paper, vermilion accent, kinetic serif headlines. Calm confidence that reads like a magazine.</p>
+          <div style="margin-top:16px;display:flex;gap:7px"><span style="width:20px;height:20px;background:#f3f0e8;border:1px solid #444"></span><span style="width:20px;height:20px;background:#ff4326"></span><span style="width:20px;height:20px;background:#111"></span></div>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- footer -->
+    <div style="margin-top:64px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;font-family:'Space Mono',monospace;font-size:11px;color:#5a5a52;letter-spacing:.08em;border-top:1px solid #232320;padding-top:24px">
+      <span>AI ENGINEER · LLM SYSTEMS &amp; MULTI-AGENT ORCHESTRATION</span>
+      <span>CHARLOTTE, NC · OPEN TO RELOCATION / REMOTE</span>
+      <span style="color:#e8ff5e">© 2026 ✦</span>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  renderVals(){ return {}; }
+  componentDidMount(){ this._pt(['#e8ff5e','#6ee7ff','#ff4326','#a78bfa']); }
+  _pt(colors){
+    const COLS=16, ROWS=9, N=COLS*ROWS, DUR=380, STAG=13;
+    const make=(mode)=>{
+      const ov=document.createElement('div');
+      ov.style.cssText='position:fixed;inset:0;z-index:99999;pointer-events:none;display:grid;grid-template-columns:repeat('+COLS+',1fr);grid-template-rows:repeat('+ROWS+',1fr)';
+      const tiles=[];
+      for(let i=0;i<N;i++){
+        const el=document.createElement('div');
+        const col=i%COLS, row=(i/COLS)|0;
+        el.style.background=colors[(col+row+((Math.random()*2)|0))%colors.length];
+        el.style.transition='transform '+DUR+'ms cubic-bezier(.78,0,.22,1)';
+        el.style.transform = mode==='enter' ? 'scale(1.02)' : 'scale(0)';
+        ov.appendChild(el); tiles.push({el,col,row});
+      }
+      document.body.appendChild(ov); ov.getBoundingClientRect();
+      return {ov,tiles};
+    };
+    const run=(o,mode,done)=>{
+      o.tiles.forEach(({el,col,row})=>{
+        el.style.transitionDelay=((col+row)*STAG + Math.random()*90)+'ms';
+        el.style.transform = mode==='enter' ? 'scale(0) rotate(14deg)' : 'scale(1.02)';
+      });
+      setTimeout(done,(COLS+ROWS)*STAG+90+DUR+30);
+    };
+    const e=make('enter');
+    requestAnimationFrame(()=>requestAnimationFrame(()=>run(e,'enter',()=>e.ov.remove())));
+    if(window.__ptClickBound) return; window.__ptClickBound=true;
+    document.addEventListener('click',(ev)=>{
+      const a=ev.target.closest&&ev.target.closest('a'); if(!a)return;
+      const href=a.getAttribute('href')||''; if(!href.includes('.html')) return;
+      ev.preventDefault();
+      const x=make('exit');
+      requestAnimationFrame(()=>requestAnimationFrame(()=>run(x,'exit',()=>{window.location.href=href;})));
+    }, true);
+  }
+}
+</script>
+</body>
+</html>
